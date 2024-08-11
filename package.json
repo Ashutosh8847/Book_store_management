@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "react-icons": "^4.12.0",
+    "react-toastify": "^9.1.3"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd mern_server && npm start",
+    "client": "cd mern_client && npm start"
+  }
+}
